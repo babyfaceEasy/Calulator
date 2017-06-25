@@ -1,0 +1,33 @@
+{
+    "name": "babyfaceEasy/Calculator",
+    "type": "library",
+    "description": "Testing Packages in Laravel 5.4",
+    "keywords": [
+        "babyfaceEasy",
+        "Calculator"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olakunle Oegbaro"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : "~5.6|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~4.0||~5.0||~6.0",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "babyfaceEasy\\Calculator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "babyfaceEasy\\Calculator\\": "tests"
+        }
+    }
+}
